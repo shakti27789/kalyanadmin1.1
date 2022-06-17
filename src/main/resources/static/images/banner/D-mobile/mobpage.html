@@ -1,0 +1,3901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond-Mobile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mob-css/mobile.css">
+<link rel="stylesheet" href="mob-css/owl.carousel.min.css">
+
+</head>
+<body>
+    <div class="header">
+       
+      <div class=" header-top">
+          <div class="logo">
+                       <a href="./mobpage.html"><i class="fa fa-home" ></i><img src="mob-images/logo.png" alt=""></a> 
+          </div>
+          <div class="menu-right navbar">
+                        <ul >
+                            <li class="three"  ><i class="fa fa-university"></i><a href="#">balance: 450</a></li>
+                            <li class="sub-three"><a href="#"> Exp : 0</a></li>
+
+                           
+                          <li class="dropdown">
+                              <a href="#"  onclick="myFunction()" class="dropbtn">shakti demo
+                                <i class="fa fa-chevron-down dropbtn" onclick="myFunction()" ></i>
+                              </a>
+                           
+                            <div id="myDropdown" class="dropdown-content">
+                              <a href="#">Account Statement</a>
+                              <a href="#">Profit Loss Report</a>
+                              <a href="#">Bet History</a>
+                              <a href="#">Unsetteled Bet</a>
+                              <a href="#">Casino Report History</a>
+                              <a href="#">Set Button Values</a>
+                              <a href="#">Change Password</a>
+                              <!-- <a href="#">
+                                
+                                <input type="checkbox" id="defaultCheck" name="example2">
+                                <label for="defaultCheck">Default checkbox</label> -->
+                              </a>
+                              <a href="#"> Expouser</a>
+                              <hr>
+                              <a href="#">Signout</a>
+                            
+                             </div>
+                          </li>
+                           
+                        </ul>
+          </div>
+          <div class="search-box">
+            <li class="one" >
+
+              <a  href="#"> 
+                <i class="fa fa-search-plus" id="plus-btn"></i>
+             </a>
+                   <input type="text" class="toogle-input"  placeholder="All Events" id="search-input">
+                 
+              </li >
+          </div>
+          <!-- <div class="marque-box"> -->
+            <marquee behavior="" direction="" class="text-white" >To view old accounts, visit <a href="#" class="text-white">http://old2020.com</a></marquee>
+          <!-- </div> -->
+      </div>
+      <div class="header-bottom">
+        <div class="sports-link">IN-PLAY</div>
+        <div class="sports-link">SPORTS</div>
+        <div class="sports-link">CASINO+SLOT</div>
+        <div class="sports-link">OTHERS</div>
+      </div>
+      <!-- <div class="col-md-12 header-bottom">
+                    <nav class="navbar navbar-expand-lg  mb-0">
+                       
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav">
+                            <li class="nav-item ">
+                              <a class="nav-link active"  href="./home.html"  target="iframe_a">Home </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link"  href="./cricket.html"  target="iframe_a">cricket</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="./cricket.html" target="iframe_a">tennis</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link"   href="#">football</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  href="#">lottery</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link"  href="#">worly</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link"   href="#">32 card</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link"  href="#">live teenpatti</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link"   href="#">live poker</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link"  href="#">andar bahar</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">luckey 7</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link"   href="#">dragon tiger</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link"  href="#">bollywood casino</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link"  href="#">my market</a>
+                              </li>
+                          </ul>
+                        </div>
+                      </nav>
+                 </div> -->
+    </div>
+    <div class="main-content">
+      <div class="box active detail-box">
+        <div  class="tab-box">
+          <ul class="nav nav-tabs">
+                      
+            <li class="nav-item">
+            
+              <a class="nav-link active" data-toggle="tab" href="#football"><i class="fa fa-futbol-o"></i> Football </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#tennis"><i class="fa fa-dribbble" ></i>Tennis </a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link " data-toggle="tab" href="#cricket"><i class="fa fa-cricket-ball"></i>Cricket</a>
+           </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#boxing">Boxing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#motor_sport">Motor Sport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#kabaddi_sports">Kabaddi Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#mixed_martial_arts_casino">Mixed Martial Arts Casino</a>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content">
+            <!-- Football content -->
+          <div id="football" class=" tab-pane active"><br>
+            <h4>Football</h4>
+            <div class="game-names "><a href="./matchodds.html" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back" data-toggle="modal" data-target="#back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out" data-toggle="modal" data-target="#lay">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back"  data-toggle="modal" data-target="#back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out"  data-toggle="modal" data-target="#lay">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back"  data-toggle="modal" data-target="#back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out"  data-toggle="modal" data-target="#lay">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               <div class="modal fade" id="back">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                  
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Modal Heading</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      Modal body..
+                    </div>
+                    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+             </tbody>
+           </table>
+           <div class="game-names "><a href="./matchodds.html" class="text-dark">Vukic v Lopez / Mar 10 2020 1:00AM(IST)</a></div>
+            <div class="game-icons ">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+          </div>
+           <!-- football End -->
+
+          <!--Tennis content -->
+          <div id="tennis" class=" tab-pane fade"><br>
+            <h4>Tennis</h4>
+            <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+           <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 10 2020 1:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+          </div>
+          <!-- Tennis End -->
+
+           <!--Cricket content  -->
+          <div id="cricket" class=" tab-pane fade"><br>
+            <h4>Cricket</h4>
+            <div class="game-names"><a href="#" class="text-dark">India v Srilanka / Mar 5 2020 2:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+           <div class="game-names"><a href="#" class="text-dark">India v srilanka / Mar 15 2020 1:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+          </div>
+          <!-- Cricket End -->
+
+          <!-- Boxing content -->
+          <div id="boxing" class=" tab-pane fade"><br>
+            <h4>Boxing</h4>
+            <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+           <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 10 2020 1:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+          </div>
+          <!-- Boxing End -->
+
+          <!-- Moter sports content -->
+          <div id="motor_sportl" class=" tab-pane fade"><br>
+            <h4>Moter Sports</h4>
+            <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+           <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 10 2020 1:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+          </div>
+          <!-- Moter Sports End -->
+
+
+          <!-- Kabaddi content -->
+          <div id="kabaddi_sports" class=" tab-pane fade"><br>
+            <h4>kabaddi Sports</h4>
+            <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+           <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 10 2020 1:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+          </div>
+          <!-- Kabaddi End -->
+
+
+          <!-- Mixed Martial Arts content -->
+          <div id="mixed_martial_arts_casino" class=" tab-pane fade"><br>
+            <h4>Mixed Martial</h4>
+            <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+           <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 10 2020 1:00AM(IST)</a></div>
+            <div class="game-icons">
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+              <a href="#"><span class="text-dark">@</span></a>
+           </div>
+          
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                <div class="second-box">
+                 
+                  <td>
+                    <button class="back">
+                    <span class="odd">1.58</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">1.62</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">-</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="back">
+                    <span class="odd">2.6</span>
+                  </button>
+                  </td>
+                  <td>
+                    <button class="lay-out">
+                    <span class="odd">3</span>
+                  </button>
+                  </td>
+                 </div>
+               </tr>
+               <!-- <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr> -->
+               
+             </tbody>
+           </table>
+          </div>
+          <!-- Mixed End -->
+
+         
+         
+         
+         
+         
+          <!-- <div id="tennis" class=" tab-pane fade"><br>
+            <h4>Tennis</h4>
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-one ">Game</th>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#">
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               
+             </tbody>
+           </table>
+          </div>
+          <div id="cricket" class=" tab-pane"><br>
+           <h4>Cricket</h4>
+           <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-one ">Game</th>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#">
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               
+             </tbody>
+           </table>
+         </div>
+          <div id="boxing" class=" tab-pane fade"><br>
+            <h3>Boxing</h3>
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-one ">Game</th>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#">
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               
+             </tbody>
+           </table>
+          </div>
+          <div id="motor_sport" class=" tab-pane fade"><br>
+            <h3>Motor Sport</h3>
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-one ">Game</th>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#">
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               
+             </tbody>
+           </table>
+          </div>
+          <div id="kabaddi_sports" class=" tab-pane fade"><br>
+            <h4>Kabaddi Sports</h4>
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-one ">Game</th>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#">
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               
+             </tbody>
+           </table>
+          </div>
+          <div id="mixed_martial_arts_casino" class=" tab-pane fade"><br>
+            <h3>Mixed Martial Arts Casino</h3>
+            <table class="table">
+             <thead>
+               <tr>
+                 <th class="head-one ">Game</th>
+                 <th class="head-sub" colspan="2" >1</th>
+                 <th class="head-sub" colspan="2">X</th>
+                 <th class="head-sub" colspan="2">2</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#">
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                     <span class="text-dark">@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               <tr>
+                 <td>
+                   <div class="game-names"><a href="#" class="text-dark">Vukic v Lopez / Mar 5 2020 2:00AM(IST)</a></div>
+                   <div class="game-icons"><a href="#" class="text-dark">
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                     <span>@</span>
+                   </a></div>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">1.58</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">1.62</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">-</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="back">
+                   <span class="odd">2.6</span>
+                 </button>
+                 </td>
+                 <td>
+                   <button class="lay-out">
+                   <span class="odd">3</span>
+                 </button>
+                 </td>
+                 
+               </tr>
+               
+             </tbody>
+           </table>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    
+ 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+     <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- external javascript -->
+<script src="./js/mobile-script.js"></script>
+
+
+
+
+
+
+  <script>
+   
+  </script>
+</body>
+</html>

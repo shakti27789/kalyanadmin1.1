@@ -1,0 +1,20 @@
+[
+   {
+      "SelectionId":"6",
+      "RunnerName":"6 over run BGR(LSH vs BGR)adv",
+      "LaySize1":"100",
+      "BackSize1":"100",
+      "BackPrice1":"52",
+      "LayPrice1":"50",
+      "GameStatus":""
+   },
+   {
+      "SelectionId":"7",
+      "RunnerName":"10 over run BGR(LSH vs BGR)adv",
+      "LaySize1":"100",
+      "BackSize1":"100",
+      "BackPrice1":"52",
+      "LayPrice1":"50",
+      "GameStatus":""
+   }
+]

@@ -1,0 +1,445 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-font-family: 'Oswald', sans-serif;
+    -webkit-font-family: 'Oswald', sans-serif;
+    -ms-font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
+}
+a#myTable_previous, a#myTable_next ,.paginate_button {
+    border: 1px solid gray;
+    margin: 0px;
+    font-size: 12px;
+    background-color: #474747;
+    color: white !important;
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 100%;
+}
+}
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 100%;
+}
+.account-container {
+    padding: 15px;
+}
+}
+.head-tittle {
+    background-color: #474747;
+    color: white;
+    padding: 5px 5px;
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* #myTable tr {
+    text-align: center;
+} */
+div#myTable_length {
+    padding: 5px;
+    text-align: left;
+    width: 158px;
+    float: left;
+    display: inline;
+    margin-top: 20px;
+}
+div#myTable_filter {
+    padding: 0px;
+    text-align: right;
+    /* width: 154px; */
+    display: inline;
+    float: left;
+    margin-top: 20px;
+    position: absolute;
+    right: 4px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0;
+    border: .5px solid #8080808c;
+    border-radius: 2px;
+    padding: 4px;
+    width: 145px;
+}
+/* .account-table { */
+    /* padding: 0px; */
+    /* white-space: nowrap; */
+    /* margin-bottom: 15px; */
+/* } */
+#myTable_wrapper thead {
+    font-size: 12px;
+    padding: 0px;
+    /* background-color: #2c3e50; */
+    /* color: white; */
+    /* border-bottom: 2px solid black; */
+}
+table.dataTable thead th, table.dataTable thead td {
+    padding: 7px 6px;
+    border-bottom: 1px solid #111;
+    vertical-align: middle;
+    font-size: 12px;
+    color: black;
+    text-transform: capitalize;
+    background-color:#474747;
+    color: white;
+    font-family: sans-serif;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+	padding: 7px 6px!important;
+}
+/* table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 2px !important;
+    border-bottom: 1px solid #111;
+} */
+table.dataTable.no-footer {
+    overflow-y: scroll;
+    border-bottom: 1px solid #c5c5c5 !important;
+    border-radius: 5px;
+    height: auto;
+    overflow: scroll;
+    overflow-y: scroll;
+}
+div#myTable_info {
+    padding: 10px;
+    /* display: none; */
+    color: gray;
+}
+.dataTables_wrapper .dataTables_paginate {
+    float: right !important;
+    text-align: center !important;
+    /* padding-top: 15px !important; */
+    display: inline;
+    padding-right: 10px;
+}
+a#myTable_previous, a#myTable_next {
+
+    border: 1px solid gray;
+    margin: 0px;
+} 
+.input-date {
+    padding: 10px 0px;
+    /* margin: 10px 0px; */
+    /* text-align: center; */
+}
+i.fa.fa-calendar-o {
+    margin-top: 3px;
+    position: absolute;
+    z-index: 99;
+    /* right: 0; */
+    /* margin-right: 0px; */
+    margin-left: -25px;
+    color: gray;
+}
+.select-box.match-box.bet-hstry {
+    display: inline-block;
+    margin-right: 0px;
+    /* width: 15%; */
+}
+.select-box.match-box.bet-hstry {
+
+    /* width: 20%; */
+    margin: auto;
+    width: 47%;
+    margin-left: 7px;
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom,
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-right.datepicker-orient-bottom  {
+    top: 105.5px;
+    left: 25.5px;
+    z-index: 10;
+    display: block;
+    background-color: rgb(210, 210, 255);
+    padding: 10px;
+}
+.date-box {
+    display: inline-block;
+    width: 15%;
+    padding: 0px;
+    margin: 10px 5px;
+    /* float: left; */
+}
+input.datepicker.fa.fa-calendar-o {
+    width: 100%;
+    border: 1px solid darkgray;
+    /* margin: 0px 0px 10px 0px; */
+    color: black;
+}
+.butn-box {
+    display: block;
+    padding: 5px;
+}
+.butn-box input[type="button"] {
+    background-color: #0088cc;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.select-box {
+    display: block;
+    /* margin-right: 10px; */
+    /* width: 20%; */
+    margin: auto;
+    width: 97%;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0.5em 1em;
+    /* margin-left: 2px; */
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    cursor: pointer;
+    color: #333 !important;
+    /* border: 1px solid transparent; */
+    border: 1px solid #80808063;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    /* min-width: 1.5em; */
+    padding: 10px 15px;
+    /* margin-left: 2px; */
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    *cursor: hand;
+    color: #fff!important;
+    /* border: 1px solid transparent; */
+    border: 1px solid #80808063;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active{
+    background-color: #0088cc;
+    color: white;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    background-color: #0088cc;
+    color: white;
+}
+.select-box.match-box {
+    display: inline-block;
+    /* margin-right: 10px; */
+    width: 15%;
+}
+#myTable tbody tr{
+    font-size: 14px !important;
+}
+.account-table.bethistory #myTable tbody tr.back {
+       background-color: #87CEEB !important;
+    font-size: 14px !important;
+}
+.account-table.bethistory #myTable tbody tr.lay {
+    background-color: pink !important;
+    font-size: 14px !important;
+}
+/* .account-table.bethistory div#myTable_filter {
+    display: none;
+} */
+#prft-loss tr:last-child td{
+    text-align: right;
+}
+
+tbody tr td span {
+    color: white;
+    margin: 2px;
+    background-color: dimgray;
+    padding: 2px 8px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+table.dataTable tbody tr:first-child td {
+    font-weight: bold;
+}
+.account-container.client-record.pt-4 {
+    width: 100%;
+    overflow: auto;
+	background-color: #f9f9f9;
+    padding: 10px;
+    margin: 0;
+}
+/* cash css */
+.cash-trans div#myTable_length , .cash-trans div#myTable_filter ,.market-result div#myTable_length {
+    display: none;
+}
+table.cash-trans.dataTable.no-footer{
+    margin-top: 50px;
+}
+.cash-trans .dataTables_wrapper .dataTables_paginate{
+    position: absolute;
+    right: 0;
+    top: -45px;
+}
+/* ***** end css***** */
+
+
+/* ******** market css   ************* */
+
+.account-table.table-responsive.market-top-table, .account-table.table-responsive.market-bottom-table {
+    height: 30vh;
+ 
+}
+.market-result .formrow.mt-4 {
+    width: 100%;
+    display: block;
+}
+.market-result #myTable_wrapper thead {
+    font-size: 12px;
+    padding: 0px;
+    background-color: #474747;
+    color: white;
+    /* border-bottom: 2px solid black; */
+}
+
+.market-result .table-bordered thead th {
+    border-bottom-width: 2px;
+    position: sticky;
+    top: 0;
+    background-color: #474747;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.market-result div#myTable_filter {
+    padding: 0px;
+    /* text-align: right; */
+    /* width: 154px; */
+    display: inline;
+    /* float: left; */
+    margin-top: 10px;
+    position: relative;
+    /* padding-left: 3px; */
+    /* right: 4px; */
+    left: 0px;
+    width: 200px;
+    /* margin-bottom: 20px; */
+}
+.market-result div#myTable_info {
+    padding: 10px;
+    /* display: none; */
+    color: gray;
+    display: none;
+}
+.market-result table.dataTable.no-footer {
+    overflow-y: scroll;
+    border-bottom: 1px solid #000000 !important;
+    border-radius: 5px;
+    /* border-top: 2px solid; */
+    height: 380px;
+    overflow: auto;
+    overflow: scroll;
+    position: relative;
+    /* top: 20px; */
+    margin-top: 40px;
+}
+
+/* ********** Ledger css *********** */
+.ledger-table div#myTable_filter {
+ 
+    display: none;
+}
+.account-table.table-responsive.ledger-table {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    float: left;
+}
+.ledger-table table.dataTable.no-footer{
+    margin-top: 0px;
+}
+.header-line {
+    text-align: left;
+}
+.ledger-table .dataTables_wrapper .dataTables_paginate {
+   
+    display: none;
+}
+.ledger-table  .table.dataTable tbody td {
+    padding: .75rem;
+}
+.ledger-table .table.dataTable.no-footer {
+    border-bottom: none !important;
+    border-top: none;
+}
+.ledger-table table.dataTable thead .sorting  {
+   
+    background-image: none !important;
+}
+.bottom-line {
+    width: 100%;
+    height: 2px;
+    background-color: #474747;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+/* ************* profit and loss  ***************** */
+.account-record.account-stment.profitLoss div#myTable_length, 
+.account-record.account-stment.show-detail div#myTable_length,
+.account-record.account-stment.open-bets div#myTable_length,
+.account-record.account-stment.sessionMatch div#myTable_length     {
+    display: none;
+}
+.account-record.account-stment.profitLoss div#myTable_filter,
+ .account-record.account-stment.show-detail div#myTable_filter,
+ .account-record.account-stment.sessionMatch div#myTable_filter,
+ .account-record.account-stment.sessionMatch div#myTable_info,
+ .account-record.account-stment.sessionMatch .dataTables_wrapper .dataTables_paginate  {
+   display: none;
+  
+}
+.account-record.account-stment.open-bets div#myTable_filter {
+    padding: 5px 10px;
+    text-align: right;
+    display: inline;
+    float: left;
+    position: relative;
+
+}
+/* .account-record.account-stment.open-bets .table-striped tbody tr:nth-of-type(odd) {
+  
+    height: 45px;
+} */
+.account-record.account-stment.open-bets .dataTables_wrapper .dataTables_filter input {
+   
+    width: 200px;
+}
+.account-record.account-stment.profitLoss .table-bordered thead th , .account-record.account-stment.open-bets .table-bordered thead th {
+    background-color: #474747;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+/* .account-record.account-stment.profitLoss table.dataTable thead tr:first-child th {
+   width: 25px;
+} */
+.sessionMatch .dataTables_wrapper {
+    position: relative;
+    clear: both;
+    *zoom: 1;
+    zoom: 1;
+    overflow-x: scroll;
+}
+.sessionMatch .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.sessionMatch table.dataTable thead .sorting, 
+.sessionMatch table.dataTable thead .sorting_asc, 
+.sessionMatch table.dataTable thead .sorting_desc {
+    background : none;
+}

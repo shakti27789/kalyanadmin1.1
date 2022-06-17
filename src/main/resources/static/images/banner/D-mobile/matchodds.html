@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DiamondExch</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mob-css/mobile.css">
+<link rel="stylesheet" href="mob-css/owl.carousel.min.css">
+<link rel="stylesheet" href="mob-css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="mob-css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="mob-css/table.css">
+</head>
+<body>
+    <div class="header">
+       
+        <div class=" header-top">
+            <div class="logo">
+                         <a href="./homepage.html"><img src="mob-images/logo.png" alt=""></a> 
+            </div>
+            <div class="menu-right navbar">
+              <ul >
+                <li class="three"  ><i class="fa fa-university"></i><a href="#">balance: 450</a></li>
+                <li class="sub-three"><a href="#"> Exp : 0</a></li>
+
+               
+              <li class="dropdown">
+                  <a href="#"  onclick=" myFunction()" class="dropbtn">shakti demo
+                    <i class="fa fa-chevron-down dropbtn" onclick=" myFunction()" ></i>
+                  </a>
+               
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="account.html">Account Statement</a>
+                  <a href="profit-loss.html">Profit Loss Report</a>
+                  <a href="./bet-history.html">Bet History</a>
+                  <a href="#">Unsetteled Bet</a>
+                  <a href="#">Casino Report History</a>
+                  <a href="#">Set Button Values</a>
+                  <a href="./change-pswrd.html">Change Password</a>
+                 <div class="top-link"> <a href="#"> Balance</a><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked></div>
+                 <div class="top-link"> <a href="#"> Exposure</a><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked></div>
+                  <hr>
+                  <a href="#" style="color: red;">Logout</a>
+                
+                 </div>
+              </li>
+               
+            </ul>
+            </div>
+            <div class="search-box">
+              <li class="one" >
+                <a  href="#"> 
+                  <i class="fa fa-search-plus" id="plus-btn"></i>
+               </a>
+                     <input type="text" class="toogle-input"  placeholder="All Events" id="search-input">
+                   
+                </li >
+            </div>
+            <marquee behavior="" direction="" class="text-white" >To view old accounts, visit <a href="#" class="text-white">http://old2020.com</a> </marquee>
+           </div>
+        <div class="header-bottom">
+          <div class="sports-link" style="border-right:1px solid white ;">IN-PLAY</div>
+          <div class="sports-link" style="border-right:1px solid white ;">SPORTS</div>
+          <div class="sports-link" style="border-right:1px solid white ;">CASINO+SLOT</div>
+          <div class="sports-link">OTHERS</div>
+        </div>
+        
+      </div>  
+<div class="main-content">
+    <div class="box active detail-box">
+     
+        <div class="team-names p-1">
+            <div class="match-names"><a href="#" class="text-white">Vukic v Lopez </a></div>
+            <div class="game-time float-right text-right">
+              <span class="time text-white">Mar 5 2020 2:00AM(IST)</span>
+           </div>
+         </div>
+         <!-- ********* Start ************ -->
+        <div class="matchodds-head">
+            <div class="market-title mb-2">
+                <span class="text-left"> MatchOdds market</span>
+                <a href="" class="text-right">
+                    <span>
+                        <i class="fa fa-info-circle float-right"></i>
+                    </span>
+                </a>
+             </div>
+            
+             <div class="match-content">
+              <div class="matchodds-record">
+               <!-- first record -->
+                 <div class="table-header">
+                    
+                    <div class="box-info box-1 back right text-center">Back</div>
+                    <div class="box-info box-1 lay  right text-center">Lay</div>
+                   
+                 </div>
+                
+                
+                 <div class="table-body">
+                    <div class="table-row suspended" data-title="SUSPENDED">
+                        <div class="text-info country-name  ">
+                            <span class="team-name"><b>Testing1</b></span>
+                            <p>
+                                <span  style="color: black;">0</span>
+                                <span  style="color: black;display: none;">0</span>
+                            </p>
+                        </div>
+                          
+                        <div class="box-info box-2 back text-center btn-back" id=""><Span> <strong>100</strong> </Span><br><Span>10</Span></div>
+                        <div class="box-info box-2 lay  text-center btn-lay" id=""><Span> <strong>100</strong></Span><br><Span>10</Span></div>
+                       
+                       
+                         
+                    </div>
+                    <div class="table-row suspended" data-title="SUSPENDED">
+                        <div class="text-info country-name ">
+                            <span class="team-name"><b>Testing2</b></span>
+                            <p>
+                                <span  style="color: black;">0</span>
+                                <span  style="color: black;display: none;">0</span>
+                            </p>
+                        </div>
+                         
+                        <div class="box-info box-2 back text-center btn-back" id=""><Span> <strong>100</strong> </Span><br><Span>10</Span></div>
+                        <div class="box-info box-2 lay  text-center btn-lay" id=""><Span> <strong>100</strong></Span><br><Span>10</Span></div>
+                        
+
+                    </div>
+                 </div>
+
+                 <!-- second record -->
+
+              </div>
+             </div>
+        </div>
+        <!-- ******* End ********* -->
+
+
+
+         <!-- ********* Start ************ -->
+         <div class="matchodds-head">
+          <div class="market-title mb-2">
+              <span class="text-left"> BookMarker market</span>
+              <a href="" class="text-right">
+                  <span>
+                      <i class="fa fa-info-circle float-right"></i>
+                  </span>
+              </a>
+           </div>
+          
+           <div class="match-content">
+            <div class="matchodds-record">
+             <!-- first record -->
+               <div class="table-header">
+                  
+                  <div class="box-info box-1 back right text-center">Back</div>
+                  <div class="box-info box-1 lay  right text-center">Lay</div>
+                 
+               </div>
+              
+              
+               <div class="table-body">
+                 <div class="suspended-layer"> <span class="supnd-text">SUSPENDED</span> </div>
+                  <div class="table-row suspended" data-title="SUSPENDED">
+                      <div class="text-info country-name  ">
+                          <span class="team-name"><b>Testing1</b></span>
+                          <p>
+                              <span  style="color: black;">0</span>
+                              <span  style="color: black;display: none;">0</span>
+                          </p>
+                      </div>
+                        
+                      <div class="box-info box-2 back text-center btn-back" id=""><Span> <strong>100</strong> </Span><br><Span>10</Span></div>
+                        <div class="box-info box-2 lay  text-center btn-lay" id=""><Span> <strong>100</strong></Span><br><Span>10</Span></div>
+                     
+                       
+                     
+                       
+                  </div>
+                  <div class="table-row suspended" data-title="SUSPENDED">
+                      <div class="text-info country-name ">
+                          <span class="team-name"><b>Testing2</b></span>
+                          <p>
+                              <span  style="color: black;">0</span>
+                              <span  style="color: black;display: none;">0</span>
+                          </p>
+                      </div>
+                       
+                      <div class="box-info box-2 back text-center btn-back" id=""><Span> <strong>100</strong> </Span><br><Span>10</Span></div>
+                      <div class="box-info box-2 lay  text-center btn-lay" id=""><Span> <strong>100</strong></Span><br><Span>10</Span></div>
+                    
+                  </div>
+                  
+               </div>
+
+               <!-- second record -->
+
+            </div>
+           </div>
+         </div>
+      <!-- ******* End ********* -->
+
+
+
+      <!-- ******** Start *********  -->
+
+      <div class="matchodds-head">
+        <div class="market-title mb-2">
+            <span class="text-left"> Fancy market</span>
+            <a href="" class="text-right">
+                <span>
+                    <i class="fa fa-info-circle float-right"></i>
+                </span>
+            </a>
+         </div>
+        
+         <div class="match-content">
+          <div class="matchodds-record">
+           <!-- first record -->
+             <div class="table-header">
+                
+                <div class="box-info box-1 back right text-center">Back</div>
+                <div class="box-info box-1 lay  right text-center">Lay</div>
+               
+             </div>
+            
+            
+             <div class="table-body">
+                <div class="table-row suspended" data-title="SUSPENDED">
+                    <div class="text-info country-name  ">
+                        <span class="team-name"><b>Testing1</b></span>
+                        <p>
+                            <span  style="color: black;">0</span>
+                            <span  style="color: black;display: none;">0</span>
+                        </p>
+                    </div>
+                      
+                    <div class="box-info box-2 back text-center btn-back" id=""><Span> <strong>100</strong> </Span><br><Span>10</Span></div>
+                        <div class="box-info box-2 lay  text-center btn-lay" id=""><Span> <strong>100</strong></Span><br><Span>10</Span></div>
+                   
+                   
+                   
+                     
+                </div>
+                <div class="table-row suspended" data-title="SUSPENDED">
+                    <div class="text-info country-name ">
+                        <span class="team-name"><b>Testing2</b></span>
+                        <p>
+                            <span  style="color: black;">0</span>
+                            <span  style="color: black;display: none;">0</span>
+                        </p>
+                    </div>
+                     
+                    <div class="box-info box-2 back text-center btn-back" id=""><Span> <strong>100</strong> </Span><br><Span>10</Span></div>
+                    <div class="box-info box-2 lay  text-center btn-lay" id=""><Span> <strong>100</strong></Span><br><Span>10</Span></div>
+                  
+                </div>
+             </div>
+
+             <!-- second record -->
+
+          </div>
+         </div>
+      </div>
+
+      <!-- ******** End ********* -->
+
+
+        
+<!-- The Modal lay -->
+<div class="pop-up-box-lay" >
+  <div class="header p-2">
+    <span >Place Bet</span>
+    <span  class="btn-lay-close float-right " > <i class="fa fa-times text-white" ></i></span>
+  </div>
+   <div class="box-content mb-2">
+    <div class="city-name p-2">
+      <span class="">Melbourne City</span>
+      <form class="float-right">
+       <div class="value-button" id="decrease-lay" onclick="decreaseValuelay()" value="Decrease Value">-</div>
+       <input type="number" id="number-lay" value="0" />
+       <div class="value-button" id="increase-lay" onclick="increaseValuelay()" value="Increase Value">+</div>
+     </form>
+     </div>
+   </div>
+   <div class="input-submit mb-2">
+    
+     <input type="num" id="left-box" value="1" class="start">
+     <input type="button" id="middle-box" value="Submit" class="submit-value">
+      <input type="num" id="right-box" value="2" class="net">
+     
+   </div>
+   <div class="table">
+     <thead>
+       <tr>
+         <th></th>
+         <th></th>
+         <th></th>
+       </tr>
+     </thead>
+     <div class="tbody">
+       
+         
+       <tr><td> <button type="button" class="btn btn-secondary">1000</button></td>
+           <td> <button type="button" class="btn btn-secondary">5000</button></td>
+             <td> <button type="button" class="btn btn-secondary">10000</button></td>
+       </tr>            
+       <tr>      <td><button type="button" class="btn btn-secondary">25000</button></td>
+                 <td> <button type="button" class="btn btn-secondary">50000</button></td>
+                   <td> <button type="button" class="btn btn-secondary">100000</button></td>
+       </tr>
+       <tr>           <td><button type="button" class="btn btn-secondary">200000</button></td>
+                       <td> <button type="button" class="btn btn-secondary">500000</button></td>
+                         <td> <button type="button" class="btn btn-secondary">1000000</button></td>
+                           <td> <button type="button" class="btn btn-secondary">2500000</button></td>
+          
+       </tr>
+       
+     </div>
+ 
+     <div class="bottom-box mt-2">
+       <div class="team-name-left text-dark" id="left-box-bottom">Newcastle Jets</div>
+       <div class="team-record-left text-dark" id="middle-box-bottom">0</div>
+       <div class="team-right-left text-danger" id="right-box-bottom">0.00</div>
+     </div>
+     <div class="bottom-box mt-2">
+       <div class="team-name-left text-dark" id="left-box-bottom">Melbourne City</div>
+       <div class="team-record-left text-dark" id="middle-box-bottom">0</div>
+       <div class="team-right-left text-danger" id="right-box-bottom">0.00</div>
+     </div>
+    
+     <div class="bottom-box mt-2">
+       <div class="team-name-left text-dark" id="left-box-bottom"> The Draw </div>
+       <div class="team-record-left text-dark" id="middle-box-bottom">0</div>
+       <div class="team-right-left text-danger" id="right-box-bottom">0.00</div>
+     </div>
+   </div>
+ 
+ 
+ 
+   <!-- <form>
+     <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+     <input type="number" id="number" value="0" />
+     <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+   </form> -->
+ </div>
+ 
+ 
+  <!-- The Modal Back -->
+ <div class="pop-up-box-back">
+   <div class="header p-2">
+     <span >Place Bet</span>
+     <span  class="btn-back-close float-right " > <i class="fa fa-times text-white" ></i></span>
+   </div>
+    <div class="box-content mb-2">
+     <div class="city-name p-2">
+       <span class=" text-white">Melbourne City</span>
+       <form class="float-right">
+        <div class="value-button" id="decrease-back" onclick="decreaseValueback()" value="Decrease Value">-</div>
+        <input type="number" id="number-back" value="0" />
+        <div class="value-button" id="increase-back" onclick="increaseValueback()" value="Increase Value">+</div>
+      </form>
+      </div>
+    </div>
+    <div class="input-submit mb-2">
+     
+      <input type="num" id="left-box" value="1" class="start">
+      <input type="button" id="middle-box" value="Submit" class="submit-value">
+       <input type="num" id="right-box" value="2" class="net">
+      
+    </div>
+    <div class="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <div class="tbody">
+        
+          
+        <tr><td> <button type="button" class="btn btn-secondary">1000</button></td>
+            <td> <button type="button" class="btn btn-secondary">5000</button></td>
+              <td> <button type="button" class="btn btn-secondary">10000</button></td>
+        </tr>            
+        <tr>      <td><button type="button" class="btn btn-secondary">25000</button></td>
+                  <td> <button type="button" class="btn btn-secondary">50000</button></td>
+                    <td> <button type="button" class="btn btn-secondary">100000</button></td>
+        </tr>
+        <tr>           <td><button type="button" class="btn btn-secondary">200000</button></td>
+                        <td> <button type="button" class="btn btn-secondary">500000</button></td>
+                          <td> <button type="button" class="btn btn-secondary">1000000</button></td>
+                            <td> <button type="button" class="btn btn-secondary">2500000</button></td>
+           
+        </tr>
+        
+      </div>
+  
+      <div class="bottom-box mt-2">
+        <div class="team-name-left text-white" id="left-box-bottom">Newcastle Jets</div>
+        <div class="team-record-left text-white" id="middle-box-bottom">0</div>
+        <div class="team-right-left text-danger" id="right-box-bottom">0.00</div>
+      </div>
+      <div class="bottom-box mt-2">
+        <div class="team-name-left text-white" id="left-box-bottom">Melbourne City</div>
+        <div class="team-record-left text-white" id="middle-box-bottom">0</div>
+        <div class="team-right-left text-danger" id="right-box-bottom">0.00</div>
+      </div>
+     
+      <div class="bottom-box mt-2">
+        <div class="team-name-left text-white" id="left-box-bottom"> The Draw </div>
+        <div class="team-record-left text-white" id="middle-box-bottom">0</div>
+        <div class="team-right-left text-danger" id="right-box-bottom">0.00</div>
+      </div>
+    </div>
+  
+  
+  
+    <!-- <form>
+      <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+      <input type="number" id="number" value="0" />
+      <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+    </form> -->
+  </div>
+                   
+
+    </div>
+</div>
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="/js/mobile-script.js"></script>
+
+
+    <script>
+      function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+      </script>
+    
+
+
+
+    
+      <!-- search box toggle -->
+
+   <script>
+    $(document).ready(function(){
+      $(".fa-search-plus").click(function(){
+        $("#search-input").toggleClass("active");
+      });
+    });
+</script>
+
+
+    <!--************popup lay-back *************-->
+    <script> 
+    $(document).ready(function(){
+       $(".btn-lay").click(function(){
+         $(".pop-up-box-lay").show();
+       });
+       $(".btn-lay-close").click(function(){
+         $(".pop-up-box-lay").hide();
+       });
+     });
+    </script>
+
+<script> 
+      $(document).ready(function(){
+       $(".btn-back").click(function(){
+         $(".pop-up-box-back").show();
+       });
+       $(".btn-back-close").click(function(){
+         $(".pop-up-box-back").hide();
+       });
+     });
+    </script>
+        
+
+
+
+        <!--************** input numbring*********** -->
+
+        <script>
+          function increaseValueback() {
+            var value = parseInt(document.getElementById('number-back').value, 10);
+            value = isNaN(value) ? 0 : value;
+            value++;
+            document.getElementById('number-back').value = value;
+          }
+          
+          function decreaseValueback() {
+            var value = parseInt(document.getElementById('number-back').value, 10);
+            value = isNaN(value) ? 0 : value;
+            value < 1 ? value = 1 : '';
+            value--;
+            document.getElementById('number-back').value = value;
+          }
+          
+               </script>
+                  
+        
+             <script>
+        function increaseValuelay() {
+          var value = parseInt(document.getElementById('number-lay').value, 10);
+          value = isNaN(value) ? 0 : value;
+          value++;
+          document.getElementById('number-lay').value = value;
+        }
+        
+        function decreaseValuelay() {
+          var value = parseInt(document.getElementById('number-lay').value, 10);
+          value = isNaN(value) ? 0 : value;
+          value < 1 ? value = 1 : '';
+          value--;
+          document.getElementById('number-lay').value = value;
+        }
+        
+             </script>
+
+
+    
+</body>
+</html>

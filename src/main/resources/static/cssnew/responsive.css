@@ -1,0 +1,429 @@
+@media(max-width: 1599px){
+	tbody tr td span {
+		display: inline-block; 	
+	}	
+	
+	ul.game-status {
+		font-size: 12px;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		line-height: 1.5;
+	}
+	ul.game-status li:nth-child(2) {
+		display: none;
+	}
+}
+
+@media(max-width: 1365px){
+	table.dataTable thead th, table.dataTable thead td {
+		padding: 7px 4px;
+	}
+	.account-container {
+		padding: 20px 15px 15px;
+	}
+	
+	.market-result .table-bordered thead th {
+		white-space: nowrap;
+	}
+	.market-result .table-bordered tbody td select {
+		min-width: 100px;
+	}
+	
+	.table-bordered td .btn, .table-bordered th .btn {
+		margin: 0 10px 10px 0;
+	}
+	.teenpatti-wrap .card-box {
+		padding: 0 40px;
+	}
+	
+	.max-min-row {
+		flex-direction: column;
+		align-items: center;
+	}
+	.max-min-row .btn {
+		margin: 5px 0;
+	}
+	.table-row.adjusted-row {
+		height: 70px;
+	}
+	.table-body .table-row.adjusted-row .box-info {
+		min-height: 70px;
+	}
+	
+	.anderBaher2-showCard .card-pic img{
+		max-width: 38px;
+	}
+	.set-height {
+		min-height: 51px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 11px 0;
+	}
+}
+
+@media(max-width: 1023px){
+	.toggle-container table.table th {
+		width: auto;	
+	}
+	.upper-container {
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	.toggle-container {
+		margin-top: 0;
+		width: 100%;
+	}
+	
+	.responsive-menu {
+		width: 360px;
+		position: fixed;
+		background-color: white;
+		height: 100%;
+		right: -360px;
+		bottom: 0;
+		top: 98px;
+		transition: .5s;
+		padding: 15px 0px 30px 0px;
+		z-index: 1000;
+		box-shadow: 0px 5px 25px #131313;
+		overflow: auto;
+		max-width: 250px;
+		max-height: calc(100% - 98px);
+	}
+	
+	.responsive-menu  .cross-menu + ul {
+		margin-top: 15px;
+	}
+	
+	.responsive-menu.active {
+		right: 0;
+	}
+	.header .navbar li {
+		display: block;
+		padding: 0;
+	}
+	.header .navbar:not(.mobile-items) ul li a {
+		display: block;
+		list-style: none;
+		padding: 10px 15px;
+		position: relative;
+		font-size: 15px;
+		color: #333;
+	}
+	.header .navbar ul li a:hover {
+		color: #fff;
+		background: #0088cc;
+	}
+	.responsive-menu .dropdown-content-one, 
+	.responsive-menu .dropdown-content-two {
+		display: none;
+		background: #f6f6f6;
+		position: static;
+		margin: 0;
+		width: 100%;
+		padding: 0;
+	}
+	.responsive-menu .dropdown-content-one li a:hover,
+	.responsive-menu .dropdown-content-two li a:hover {
+		background: #fff;
+	}
+	.cross-menu{
+		display: block; 
+		width: 40px;
+		height: 40px;
+		background-color: antiquewhite;
+		top: 10px;
+		text-align: center;
+		line-height: 40px;
+		font-size: 23px;
+		cursor: pointer;
+	}
+	.toggle-btn.btn-rightmenu {
+		display: block;
+		float: right;
+	}
+	
+	.responsive-menu .cross-menu + ul > li {
+		border-top: 1px solid #ddd;
+	}
+	
+	.header .navbar ul li a > i {
+		margin-left: 5px;
+		color: #474747 !important;
+		position: absolute;
+		right: 17px;
+		top: 15px;
+	}
+	
+	.header .navbar ul li a:hover > i {
+		color: #fff!important
+	}
+	
+	.mobile-items.navbar-link {
+		display: block !important;
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		padding: 0 !important;
+	}
+	
+	.mobile-items.navbar-link ul {
+		display: flex;
+		margin: 0;
+	}
+	
+	.videos-image {
+		height: auto;
+	}
+	.teenpatti-wrap .card-box {
+		padding: 0 15px;
+	}
+	.teenpatti-wrap .card-box .card-wrap img {
+		max-width: 40px;
+	}
+	.team-playing {
+		width: auto;
+		white-space: nowrap;
+	}
+	.lucky7-screen #holder{
+		right: 0;
+		bottom: 0;
+	}
+	.teenpatti-wrap .coupon-table thead th,
+	.teenpatti-wrap .coupon-table td	{
+		font-size: 12px;
+		white-space: normal;
+	}
+	
+	.teenpatti-wrap .coupon-table tr td .team_name b {
+		margin-right: 8px!important;
+	}
+	
+		
+	.roulette table.desktop-table {
+		display: none;
+	}
+	.roulette table.mobile-table {
+		display: table;
+	}
+}
+
+@media(max-width: 767px){
+	.back3,.back2,.lay2, .lay3, .table-header .box-info.text-center {
+		display: none !important;
+	}
+	.table-header .box-info.text-center.lay,
+	.table-header .box-info.text-center.back	{
+		display: block !important;
+	}
+	.text-info {
+		width: 60%;
+	}
+	.table-body .box-info.text-center,
+	.table-header .box-info.text-center	{
+		width: 20%;
+	}
+	.bookmaker-market .table-row.suspended:after{
+		width: 40%
+	} 
+	.fancy-colume .table-row.suspended:after{
+		width: 50%
+	}
+	
+	.client-Inform {
+		padding: 15px 15px 40px;
+	}
+	
+	.select-box.match-box.bet-hstry {
+		width: 100% !important;
+		padding: 0 !important;
+		margin: 0!important;
+	}
+	
+	.deposit-popUp, .withdraw-popUp, .deposit_withdraw_Popup, 
+	.limit-popUp, .credit-popUp, .password-popUp, .status-popUp, 
+	.change_password_Popup, .self_chip_deposite_Popup, 
+	.self_change_password_Popup, .viewdetail-popUp, .khata-popUp{
+		max-width: 100%;
+	}
+	.market-result .table-bordered thead th {
+		min-width: 130px;
+	}
+	.form-control {
+		min-width: 130px;
+	}
+	.table-bordered thead td, 
+	.table-bordered thead th {
+		white-space: nowrap;
+	}
+	.table-bordered tbody td.action, 
+	.table-bordered thead th.action,
+	.head-box{
+		white-space: nowrap
+	}
+	
+	.btn-primary {
+		width: 100%;
+	}
+	#modalresult {
+		padding-right: 0!important;
+	}
+	#modalresult .modal-dialog {
+		min-width: 0 !important;		
+	} 
+	.modal-pop .player-container {
+		padding: 10px!important;
+	}
+	.teenpatti-wrap .game-heading {
+		font-size: 13px;
+	}
+	.showcards .title {
+		font-size: 16px;
+	}
+	.card-wrap-ad {
+		width: calc(100% - 100px) !important;
+	}
+	.andar-bahar-design .anderBaher-showCard .card-wrap-ad {
+		width: 100% !important; 
+	}
+	.ander-baher-table .game-section img {
+		max-width: 35px;
+	}
+	.ander-baher-table .table td:first-child {
+		width: 70px;
+		max-width: 70px;
+	}
+	.ander-bahar-wrap {
+		max-width: 300px;
+		 margin: 0 auto;
+	}
+
+}
+
+@media(max-width: 600px){
+	.clientN-left,
+	.clientN-right,
+	.clientN-right input.frst-input	{
+		width: 100%;
+	}
+	.tannis-field .teamName {
+		font-size: 14px;
+	}
+	ul.game-status {
+		font-size: 12px;
+	}
+	ul.score-list li {
+		min-width: 40px;
+		max-width: 50px;
+		width: 40px;
+	}
+	.teenpatti-wrap .game-heading {
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+		padding: 10px;
+	}
+	.aaa-chart {
+		max-width: 100%;
+	}
+	.aaa-chart .table td {
+		padding: 2px;
+	}
+	
+	.anderBaher-showCard {
+		margin-top: 15px;
+	}
+	
+	.andar-bahar-design .anderBaher-showCard .team-player-game-cards {
+		margin-top: 10px;
+	}
+
+}
+@media(max-width: 599px){
+	.linebox-1,
+	.linebox-2	{
+		display: none;
+	}
+	
+	.submit-box.sbox i.fa {
+		color: white;
+		font-size: 18px;
+		position: relative;
+		right: -5px;
+		top: 4px;
+	}
+	ul.score-list li {
+		min-width: 20px;
+		max-width: 20px;
+		width: 20px;
+		font-size: 12px;
+	}
+	.tannis-field .form-row{
+		margin-bottom: 5px; 
+	}
+	.digits { font-size: 20px; }
+	.player-image-container img {
+		max-width: 35px !important;
+	}
+	.modal-pop .player-image-container img {
+		margin: 0px 2px;
+	}
+	
+	.ander-bahar-wrap {
+		max-width: 230px;
+		margin: 0 auto;
+	}
+}
+
+@media(max-width: 399px){
+	.toggle-btn {
+		display: none;
+	}
+	.header .navbar ul li a,
+	li.toggle-link a	{
+		font-size: 14px;
+	}
+	.logo h4 {
+		margin: 5px 0 0 0;
+		font-size: 18px;
+	}
+	
+	.aaa-chart .table td img {
+		max-width: 25px;
+	}
+	
+	.ander-bahar-wrap {
+		max-width: 200px;
+		margin: 0 auto;
+	} 
+	.anderBaher2-showCard .card-pic img{
+		max-width: 40px;
+	}
+	.set-height {
+		min-height: 51px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 11px 0;
+	}
+	
+	.andar-bahar-design .lucky7-screen.videostream {
+		min-height: 371px;
+	}
+	.ander-baher-table .table td {
+		padding: 5px 10px;
+	}
+	.ander-baher-table .table td span {
+		padding: 0;
+	}
+}
+
+@media(max-width: 350px){
+	.ander-bahar-wrap {
+		max-width: 150px;
+		margin: 0 auto;
+	}	
+}

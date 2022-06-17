@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	
+	
+	
+    <definition name="app.mainpage" template="/WEB-INF/view/login.jsp">
+	</definition>
+	
+	 <definition name="app.mainpage" template="/WEB-INF/view/mlogin.jsp">
+	</definition>
+	 <definition name="app.mainpage" template="/WEB-INF/view/adminlogin.jsp">
+	</definition>
+	
+	 <definition name="app.mainpage" template="/WEB-INF/view/manitence.jsp">
+	</definition>
+	
+	
+
+	<definition name="app.welcome" template="/WEB-INF/view/index.jsp">
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp" /> 
+		<put-attribute name="body" value="" />
+	</definition>
+	
+		<definition name="app.nodata" template="/WEB-INF/view/index.jsp">
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp" /> 
+		<put-attribute name="menu" value="/WEB-INF/view/pages/nodatamenu.jsp" />
+		<put-attribute name="body" value="" />
+	</definition>
+	
+	
+	<definition name="app.userwelcome" template="/WEB-INF/view/userindex.jsp">
+		<put-attribute name="header" value="/WEB-INF/tiles/user/header.jsp" /> 
+		<put-attribute name="leftpane" value="/WEB-INF/view/userpages/leftpane.jsp" />
+		<put-attribute name="body" value="" />
+	</definition>
+	
+	
+
+	
+	<definition name="home" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/welcome.jsp" />
+	</definition>
+	
+	<definition name="loginhome" extends="app.nodata">
+		<put-attribute name="body" value="/WEB-INF/view/pages/welcome.jsp" />
+	</definition>
+	
+	<definition name="ledger" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/Ledger.jsp" />
+	</definition>
+	
+
+	
+	<definition name="sport" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/sportlist.jsp" />
+	</definition>
+	
+	<definition name="subadminsport" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/subadminsportlist.jsp" />
+	</definition>
+	
+	<definition name="superstockagesport" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/superstockagesportlist.jsp" />
+	</definition>
+	
+	<definition name="matchesList" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/matchesList.jsp" />
+	</definition>
+	
+	<definition name="createMaster" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/createMaster.jsp" />
+	</definition>
+	
+	<definition name="createsupermaster" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/createsupermaster.jsp" />
+	</definition>
+	
+	<definition name="masterList" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/masterList.jsp" />
+	</definition>
+	
+	<definition name="powerUserList" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/powerUserList.jsp" />
+	</definition>
+	
+	<definition name="masterListByParentId" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/masterListByParentId.jsp" />
+	</definition>
+	
+	<definition name="punterList" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/punterList.jsp" />
+	</definition>
+	
+	<definition name="createDealer" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/createDealer.jsp" />
+	</definition>
+	
+	<definition name="createPunter" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/createPunter.jsp" />
+	</definition>
+	
+	<definition name="directUser" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/directUser.jsp" />
+	</definition>
+	
+	<definition name="usersList" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/usersList.jsp" />
+	</definition>
+	
+	<definition name="openFancy" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/openFancy.jsp" />
+	</definition>
+	
+	<definition name="finishedMatchFancy" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/finishedMatchFancy.jsp" />
+	</definition>
+	
+	<definition name="matchMessage" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/matchmessage.jsp" />
+	</definition>
+	
+	
+	<definition name="openMarket" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/openMarket.jsp" />
+	</definition>
+	
+	<definition name="closedaccount" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/closedaccount.jsp" />
+	</definition>
+	
+	<definition name="managePartnership" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/partnership.jsp" />
+	</definition>
+	
+	<definition name="winningcommssion" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/winningCommssion.jsp" />
+	</definition>
+	
+	<definition name="userDetail" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/userdetail.jsp" />
+	</definition>
+	
+	<definition name="cashTransaction" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/cashtransaction.jsp" />
+	</definition>
+	
+	<definition name="cashTransactionNew" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/cashtransactionnew.jsp" />
+	</definition>
+		
+	<definition name="reactTest" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/reactTest.jsp" />
+	</definition>
+	
+	<definition name="activeMatch" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/activeMatchlist.jsp" />
+	</definition>
+	
+	<definition name="editFancy" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/editFancy.jsp" />
+	</definition>
+	
+	<definition name="inactiveMatch" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/inactiveMatchlist.jsp" />
+	</definition>
+	
+	<definition name="marketResult" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/openFancy.jsp" />
+	</definition>
+	
+	<definition name="message" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/message.jsp" />
+	</definition>
+	
+	<definition name="liveMatchbets" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/liveMatchbets.jsp" />
+	</definition>
+
+	<definition name="openBets" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/openBets.jsp" />
+	</definition>
+	
+	<definition name="statements" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/statements.jsp" />
+	</definition>
+	
+	<definition name="userBetCounts" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/userBetCounts.jsp" />
+	</definition>
+	
+	
+	
+	<definition name="settlementlist" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/settlementlist.jsp" />
+	</definition>
+	
+	<definition name="statementByUser" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/statementByUser.jsp" />
+	</definition>
+	
+	<definition name="deletedBets" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/deletedBets.jsp" />
+	</definition>
+	
+	<definition name="deleteBets" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/deleteBets.jsp" />
+	</definition>
+	
+	<definition name="netExposure" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/netExposure.jsp" />
+	</definition>
+
+	<definition name="inactiveUser" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/inactiveUser.jsp" />
+	</definition>
+		
+	<definition name="profitAndLoss" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/profitAndLoss.jsp" />
+	</definition>
+	
+	<definition name="sportDetail" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/sportDetail.jsp" />
+	</definition>
+	
+	<definition name="sportdetailMatchMinnusSession" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/sportdetailMatchMinnusSession.jsp" />
+	</definition>
+	
+	
+	
+	<definition name="sessionplusminus" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/sessionplusminus.jsp" />
+	</definition>
+	
+	<definition name="sportdetailSessionPlusMinus" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/sportdetailsessionplusMinus.jsp" />
+	</definition>
+	
+
+	<definition name="openMarketList" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/openMarketList.jsp" />
+	</definition>
+	
+	<definition name="matchSetting" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/matchSetting.jsp" />
+	</definition>
+		
+	<definition name="innerExpo" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/innerNetExposure.jsp" />
+	</definition>
+	
+	<definition name="resultBets" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/resultBets.jsp" />
+	</definition>
+
+	<definition name="minMaxBet" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/minMaxBet.jsp" />
+	</definition>
+	
+	<definition name="minMaxBetSetAmount" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/minMaxBetSetAmount.jsp" />
+	</definition>
+	
+	<definition name="oddsdata" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/oddsdata.jsp" />
+	</definition>
+	
+	<definition name="addpermission" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/addpermission.jsp" />
+	</definition>
+	
+
+	
+		
+	
+	<definition name="betHistory" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/betHistory.jsp" />
+	</definition>
+	
+	<definition name="currentBets" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/currentBets.jsp" />
+	</definition>
+	
+	
+	
+	<definition name="addapplication" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/addapplication.jsp" />
+	</definition>
+	
+	<definition name="adduser" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/adduser.jsp" />
+	</definition>
+	
+	<definition name="addUserNew" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/addUserNew.jsp" />
+	</definition>
+	
+	<definition name="poweruser" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/poweruser.jsp" />
+	</definition>
+	
+	<definition name="changePassword" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/changePassword.jsp" />
+	</definition>
+	
+	<definition name="changePartnership" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/changepartnership.jsp" />
+	</definition>
+	
+	<definition name="addmanualmatch" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/addmanualmatch.jsp" />
+	</definition>
+	
+	
+	<definition name="LUCKY7" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/lucky7list.jsp" />
+	</definition>
+	
+    <definition name="DRAGANTIGER" extends="app.welcome">
+	  <put-attribute name="body" value="/WEB-INF/view/pages/dragontigerlist.jsp" />
+	</definition>
+	
+	 <definition name="BBCASINO" extends="app.welcome">
+	  <put-attribute name="body" value="/WEB-INF/view/pages/bbcasinolist.jsp" />
+	</definition>
+	
+	<definition name="poker20" extends="app.welcome">
+	  <put-attribute name="body" value="/WEB-INF/view/pages/poker20.jsp" />
+	</definition>
+	
+	
+	<definition name="pokeroneday" extends="app.welcome">
+	  <put-attribute name="body" value="/WEB-INF/view/pages/pokeroneday.jsp" />
+	</definition>
+	
+	<definition name="ANDARBAHAR" extends="app.welcome">
+	  <put-attribute name="body" value="/WEB-INF/view/pages/andarbaharlist.jsp" />
+	</definition>
+	
+	
+	<definition name="TEENPATTI" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/teenpattilist.jsp" />
+	</definition>
+	
+	<definition name="VCasino" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/vcasinolist.jsp" />
+	</definition>
+	
+	<definition name="LiveCasino" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/livecasinolist.jsp" />
+	</definition>
+	
+	<definition name="ROULETTE" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/roulettelist.jsp" />
+	</definition>
+	
+	<definition name="POKER" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/pokerlist.jsp" />
+	</definition>
+	
+	<definition name="teenpattioneday" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/teenpattioneday.jsp" />
+	</definition>
+	
+	<definition name="vteenpattit20" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/vteenpattit20.jsp" />
+	</definition>
+	
+	<definition name="vopenteenpattit20" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/vopenteenpatti.jsp" />
+	</definition>
+	
+	
+	<definition name="VAndarBahar2" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/VAndarBahar2.jsp" />
+	</definition>
+	
+	
+	<definition name="teenpattit20" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/teenpattit20.jsp" />
+	</definition>
+	
+	<definition name="teenpattioneday" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/teenpattioneday.jsp" />
+	</definition>
+	
+	<definition name="vlucky7" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/vlucky7.jsp" />
+	</definition>
+	
+	<definition name="vAndarBahar" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/vAndarBahar.jsp" />
+	</definition>
+	
+	<definition name="vdragontiger" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/vdragontiger.jsp" />
+	</definition>
+	
+	
+	<definition name="dragontiger20" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/dragontiger20.jsp" />
+	</definition>
+	
+	<definition name="dragontigeroneday" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/dragontigeroneday.jsp" />
+	</definition>
+	
+	
+	<definition name="vdragontigerlion" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/vdragontigerlion.jsp" />
+	</definition>
+	
+	
+	<definition name="dteenpattit20" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/dteenpattit20.jsp" />
+	</definition>
+	
+	<definition name="lucky7" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/lucky7.jsp" />
+	</definition>
+	
+	<definition name="vaaa" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/vaaa.jsp" />
+	</definition>
+	
+	<definition name="aaa" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/aaa.jsp" />
+	</definition>
+	
+	
+	<definition name="andarbahar" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/andarbahar.jsp" />
+	</definition>
+	
+	<definition name="democasino" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/democasino.jsp" />
+	</definition>
+	
+	
+	<definition name="vbbtable" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/vbbtable.jsp" />
+	</definition>
+	
+	<definition name="bwtable" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/bwtable.jsp" />
+	</definition>
+	
+	<definition name="VRoulette" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/vroulette.jsp" />
+	</definition>
+	
+	<definition name="tv" template="/WEB-INF/view/pages/tv.jsp">
+	</definition>
+	
+		
+	<definition name="lenadena" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/lenadena.jsp" />
+	</definition>
+	
+	<definition name="casinoprofitloss" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/casinoprofitloss.jsp" />
+	</definition>
+	
+	<definition name="casinoPnL" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/casinoPnl.jsp" />
+	</definition>
+	
+	<definition name="websoket" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/websoket.jsp" />
+	</definition>
+
+
+
+<definition name="casinoresult" extends="app.welcome">
+		<put-attribute name="body" value="/WEB-INF/view/pages/casinoresult.jsp" />
+	</definition>
+
+</tiles-definitions>
